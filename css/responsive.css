@@ -277,6 +277,23 @@
     width: 100%;
     padding: 0 15px;
   }
+  .banner-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .cvButton {
+    background: rgb(33, 33, 33);
+  }
+  .contactButton {
+    border: 3px solid rgb(33, 33, 33);
+  }
+  .mob-banner-button {
+    display: flex;
+    justify-content: space-around;
+  }
   /*---------------------- Banner Section end ---------------------------------------*/
 
   /*---------------------- Project Section start ---------------------------------------*/

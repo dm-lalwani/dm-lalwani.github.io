@@ -536,6 +536,7 @@ header .form-container .thankyou {
   width: 400px;
   border-radius: 50%;
   top: 50%;
+  z-index: 2;
 }
 .banner-content-wrapper {
   position: absolute;
