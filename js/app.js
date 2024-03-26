@@ -102,7 +102,7 @@ $(document).ready(function(){
         infinite: true,
         autoplay: true,
         autoplaySpeed: 1,
-        speed: 4000,
+        speed: 1500,
         cssEase: 'linear',
         slidesToShow: 6,
         slidesToScroll: 1,
