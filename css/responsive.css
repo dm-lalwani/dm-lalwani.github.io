@@ -283,6 +283,7 @@
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
+    margin-top: 35px;
   }
   .cvButton {
     background: rgb(33, 33, 33);
