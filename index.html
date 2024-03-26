@@ -1,1 +1,726 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Dinesh Lalwani</title>
+    <!--[if lt IE 9]>
+      <script src="dist/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container pos-rel">
+        <div class="row">
+          <div class="pull-left col-3 col-xs-9 brand-logo">
+            <a href="javascript:;" class="goto-home">
+              <svg
+                class="img-responsive"
+                data-event-category="Header"
+                data-event-action="Click"
+                data-event-name="Logo"
+                width="200"
+                height="70"
+                viewBox="0 -5 370.00000000000006 106.66553258637961"
+              >
+                <defs id="SvgjsDefs5638">
+                  <linearGradient id="SvgjsLinearGradient5643">
+                    <stop
+                      id="SvgjsStop5644"
+                      stop-color="#905e26"
+                      offset="0"
+                    ></stop>
+                    <stop
+                      id="SvgjsStop5645"
+                      stop-color="#f5ec9b"
+                      offset="0.5"
+                    ></stop>
+                    <stop
+                      id="SvgjsStop5646"
+                      stop-color="#905e26"
+                      offset="1"
+                    ></stop>
+                  </linearGradient>
+                </defs>
+                <g
+                  id="SvgjsG5639"
+                  featurekey="symbolFeature-0"
+                  transform="matrix(1.0827692464521819,0,0,1.0827692464521819,-4.138344088853297,-8.381489546235986)"
+                  fill="#c2ac72"
+                >
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M76.339,22.696c0,0-0.014-0.016-0.02-0.021c0-0.005,0-0.026,0-0.026s0,0.021,0,0.025c-0.013-0.014-0.038-0.042-0.078-0.087  c0.087-0.003,0.145-0.005,0.145-0.005s-0.061-0.001-0.152-0.003c-0.639-0.708-4.412-4.872-9.29-9.749  c-4.887-4.887-9.17-8.779-9.886-9.426c-0.003-0.091-0.004-0.153-0.004-0.153s-0.002,0.058-0.006,0.145  c-0.044-0.04-0.072-0.065-0.086-0.078c0.008,0,0.025,0,0.025,0s-0.018,0-0.025,0c-0.006-0.005-0.021-0.02-0.021-0.02  s0.014,0.015,0.019,0.02c-0.603-0.002-20.496-0.076-52.87-0.195H4.088c-0.071,0-0.127,0.058-0.127,0.128  C3.924,27.296,3.876,59.905,3.822,95.72c0,0.35,0,0.698,0,1.03v0.001c0,0.146,0.12,0.266,0.267,0.266  c26.815-0.032,51.996-0.063,72.297-0.088h0.001c0.099,0,0.179-0.08,0.178-0.179c-0.146-44.292-0.243-73.456-0.245-74.072  C76.324,22.683,76.339,22.696,76.339,22.696z M66.635,13.274c4.85,4.85,8.86,8.629,9.578,9.303  c-1.206-0.025-9.285-0.189-18.959-0.195c0-0.002,0-0.005,0-0.007c0-9.868-0.17-17.766-0.196-18.953  C57.751,4.158,61.766,8.405,66.635,13.274z M76.177,96.541c-17.998-0.015-43.981-0.035-71.821-0.058c0-0.557,0-1.17,0-1.796  C4.322,58.715,4.292,26.184,4.271,3.432c32.785-0.072,52.09-0.114,52.688-0.115c0.013,0.014,0.042,0.045,0.089,0.094  c-0.043,1.167-0.327,9.202-0.327,19.101c0,0.048,0,0.097,0,0.137c0,0.147,0.119,0.267,0.267,0.267  c9.852-0.003,18.052-0.285,19.236-0.328c0.05,0.047,0.082,0.077,0.096,0.09C76.318,23.29,76.265,51.146,76.177,96.541z"
+                  ></path>
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M64.296,53.982L64.296,53.982L64.296,53.982c0-0.004-0.021-0.521-0.063-1.51c-0.012-0.496-0.037-1.11-0.165-1.827  c-0.108-0.718-0.189-1.557-0.454-2.467c-0.382-1.853-1.227-4.04-2.541-6.388c-1.335-2.335-3.281-4.792-5.965-6.9  c-2.671-2.105-6.082-3.857-10.027-4.705c-2.004-0.339-4.043-0.612-6.212-0.445c-1.078,0.002-2.152,0.214-3.248,0.369  c-0.548,0.079-1.08,0.256-1.626,0.382c-0.545,0.135-1.095,0.264-1.623,0.479c-4.304,1.444-8.438,4.24-11.458,8.194  c-0.359,0.506-0.778,0.976-1.093,1.518c-0.326,0.536-0.654,1.073-0.983,1.613c-0.56,1.133-1.15,2.268-1.547,3.494l-0.333,0.907  l-0.246,0.938c-0.142,0.632-0.369,1.245-0.441,1.9c-0.099,0.648-0.198,1.299-0.297,1.952c-0.034,0.649-0.067,1.3-0.101,1.953  c-0.036,2.657,0.312,5.264,1.058,7.739c0.79,2.458,1.939,4.751,3.366,6.802c2.891,4.081,6.918,7.108,11.224,8.709  c2.131,0.873,4.371,1.26,6.533,1.5c1.072,0.035,2.151,0.151,3.208,0.045c0.527-0.034,1.052-0.047,1.569-0.098  c0.513-0.081,1.023-0.161,1.528-0.24c4.048-0.661,7.558-2.415,10.324-4.495c2.778-2.095,4.813-4.566,6.218-6.933  c1.402-2.373,2.253-4.624,2.675-6.517c0.268-0.935,0.381-1.79,0.48-2.529c0.051-0.369,0.099-0.711,0.142-1.022  c0.014-0.315,0.025-0.602,0.036-0.857C64.273,54.522,64.296,53.987,64.296,53.982v0.002V53.982z M64.207,55.563  c-0.015,0.26-0.03,0.55-0.048,0.869c-0.05,0.314-0.104,0.659-0.162,1.032c-0.059,0.372-0.122,0.773-0.189,1.202  c-0.078,0.426-0.219,0.869-0.336,1.345c-0.464,1.899-1.342,4.16-2.806,6.513c-1.455,2.349-3.543,4.783-6.357,6.82  c-1.388,1.045-3.001,1.898-4.719,2.682c-1.761,0.673-3.635,1.306-5.652,1.564c-2.009,0.36-4.1,0.323-6.271,0.156  c-2.121-0.283-4.304-0.763-6.404-1.632c-2.08-0.894-4.134-2.021-5.97-3.525c-1.828-1.505-3.485-3.286-4.876-5.312  c-2.694-4.09-4.27-9.167-3.983-14.346c0.014-1.32,0.25-2.571,0.448-3.824c0.159-0.618,0.317-1.233,0.474-1.846  c0.144-0.617,0.414-1.192,0.613-1.788c0.913-2.333,2.116-4.526,3.654-6.406c1.534-1.878,3.294-3.506,5.206-4.839  c1.946-1.278,3.999-2.295,6.109-2.989c4.225-1.325,8.604-1.45,12.425-0.614c3.847,0.853,7.181,2.566,9.796,4.631  c2.627,2.066,4.54,4.472,5.857,6.76c0.371,0.55,0.613,1.145,0.892,1.692c0.277,0.549,0.533,1.082,0.71,1.621  c0.196,0.531,0.385,1.039,0.564,1.523c0.131,0.5,0.256,0.975,0.373,1.424c0.273,0.892,0.351,1.718,0.474,2.421  c0.136,0.704,0.163,1.309,0.185,1.797c0.055,0.973,0.084,1.481,0.084,1.485C64.296,53.987,64.266,54.531,64.207,55.563z"
+                  ></path>
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M34.277,46.366c0,0-1.959,1.451-4.123,3.568c-1.989,1.946-3.441,3.758-3.665,4.041c-0.017-0.014-0.046-0.038-0.046-0.038  s0.024,0.03,0.038,0.048c-0.013,0.018-0.038,0.048-0.038,0.048s0.03-0.024,0.045-0.038c0.221,0.282,1.626,2.046,3.61,3.988  c2.163,2.117,4.178,3.622,4.178,3.622s-1.669-1.913-3.832-4.03c-1.978-1.937-3.667-3.358-3.944-3.59  c0.28-0.236,2.067-1.751,4.055-3.697C32.718,48.171,34.277,46.366,34.277,46.366z"
+                  ></path>
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M46.291,61.698c0,0,1.949-1.627,4.112-3.744c2.164-2.117,3.722-3.922,3.722-3.922s-1.96,1.45-4.123,3.567  S46.291,61.698,46.291,61.698z"
+                  ></path>
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M50.292,49.907c-2.163-2.117-4.001-3.637-4.001-3.637s1.493,1.928,3.656,4.045c2.163,2.117,4.178,3.622,4.178,3.622  S52.456,52.023,50.292,49.907z"
+                  ></path>
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M38.172,64.64c0,0,1.209-4.639,2.313-10.53s1.687-10.804,1.687-10.804s-1.12,4.889-2.225,10.78  C38.842,59.978,38.172,64.64,38.172,64.64z"
+                  ></path>
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M96.147,5.413c-0.083-0.815-0.677-1.536-1.45-1.824c-0.212-0.072-0.42-0.125-0.589-0.129l-0.135-0.014l-0.034-0.003  l-0.061-0.001h-0.068h-0.271l-1.09,0c-0.728,0-1.458,0-2.19,0c-1.465,0-2.922,0-4.37,0.001c-0.341,0.004-0.755-0.025-1.152,0.113  c-0.395,0.111-0.744,0.353-1.013,0.655c-0.285,0.29-0.443,0.689-0.538,1.101l-0.026,0.268c-0.004,0.056-0.011,0.063-0.012,0.16  v0.134l0.001,0.536c0.003,2.858,0.007,5.676,0.011,8.448c0.013,5.542,0.025,10.896,0.037,16.002  c0.043,10.21,0.082,19.431,0.115,27.188c0.102,15.353,0.165,24.952,0.166,25.144c-0.001-0.003-0.006-0.011-0.006-0.011  s0.004,0.011,0.006,0.016c0,0.001,0,0.013,0,0.013s0-0.009,0-0.012c0.004,0.011,0.013,0.034,0.024,0.068  c-0.055,0.006-0.091,0.01-0.091,0.01s0.038,0.003,0.097,0.007c0.195,0.536,1.218,3.297,2.766,6.538  c1.52,3.181,3.035,5.754,3.376,6.324c-0.031,0.076-0.049,0.12-0.049,0.12s0.023-0.038,0.061-0.101  c0.037,0.062,0.061,0.101,0.061,0.101s-0.019-0.045-0.049-0.119c0.337-0.561,1.815-3.059,3.332-6.233  c1.551-3.246,2.609-6.085,2.809-6.63c0.061-0.004,0.098-0.007,0.098-0.007s-0.036-0.004-0.091-0.011  c0.012-0.034,0.021-0.057,0.024-0.067c0,0.001,0,0.012,0,0.012s0-0.012,0-0.013c0.002-0.005,0.006-0.016,0.006-0.016  s-0.005,0.008-0.006,0.011c0.001-0.19,0.064-9.495,0.166-24.547c0.033-7.607,0.071-16.678,0.115-26.777  C96.138,26.817,96.15,21.51,96.163,16c0.004-2.755,0.008-5.56,0.011-8.409C96.162,6.864,96.204,6.197,96.147,5.413z M83.722,5.315  c0.056-0.135,0.069-0.273,0.161-0.409c0.132-0.284,0.37-0.506,0.629-0.674c0.263-0.176,0.579-0.234,0.89-0.257l1.084-0.001  c1.449,0,2.906,0,4.371,0c0.733,0,1.463,0,2.19,0c0.75,0.004,1.433-0.064,1.917,0.366c0.262,0.178,0.431,0.458,0.559,0.737  c0.113,0.3,0.128,0.584,0.123,0.963c0.001,0.717,0.001,1.431,0.001,2.142c0.001,1.282,0.002,2.551,0.003,3.813  c-0.762-0.081-3.118-0.304-5.944-0.304c-2.84,0-5.263,0.226-6.034,0.306c0.002-2.041,0.004-4.096,0.005-6.179  C83.671,5.694,83.701,5.471,83.722,5.315z M83.478,83.19c0.002-0.37,0.04-10.085,0.101-25.443c0.02-7.83,0.043-17.125,0.068-27.393  c0.008-5.134,0.015-10.511,0.022-16.069c0.001-0.742,0.001-1.495,0.002-2.243c0.763,0.047,3.144,0.178,5.921,0.183  c-0.025,2.154-0.197,17.617-0.197,35.861c0,18.2,0.171,32.772,0.197,34.857c-3.021,0.006-5.547,0.263-6.074,0.32  C83.496,83.224,83.482,83.199,83.478,83.19z M92.502,89.728c-1.5,3.139-2.583,5.755-2.841,6.388  c-0.271-0.656-1.423-3.421-2.929-6.572c-1.536-3.217-2.918-5.743-3.204-6.261c0.565,0.036,3.17,0.192,6.221,0.192  c3.035,0,5.494-0.154,6.045-0.192C95.502,83.816,94.045,86.497,92.502,89.728z M95.805,83.263c-0.525-0.06-3.035-0.321-6.1-0.321  c-0.035,0-0.069,0.001-0.104,0.001c0.042-2.103,0.327-16.897,0.327-35.108c0-18.233-0.286-33.473-0.328-35.61c0.051,0,0.1,0,0.149,0  c2.821,0,5.145-0.133,5.9-0.182c0.002,1.524,0.003,3.036,0.004,4.53c0.008,5.493,0.016,10.777,0.022,15.799  c0.026,10.043,0.049,19.04,0.068,26.571c0.062,14.907,0.1,24.062,0.101,24.248C95.84,83.199,95.826,83.224,95.805,83.263z"
+                  ></path>
+                </g>
+                <g
+                  id="SvgjsG5640"
+                  featurekey="nameFeature-0"
+                  transform="matrix(1.1508009283670675,0,0,1.1508009283670675,117.37617419062009,19.139569064948255)"
+                  fill="url(#SvgjsLinearGradient5643)"
+                >
+                  <path
+                    d="M10.88 40 l-8.6 0 l0 -24.48 l8.6 0 c7.48 0 12.6 4.88 12.6 12.24 c0 7.56 -5.4 12.24 -12.6 12.24 z M8.28 21.08 l0 13.36 l2.6 0 c4.24 0 6.6 -2.68 6.6 -6.68 c0 -0.92 -0.12 -1.76 -0.36 -2.6 c-1.04 -2.92 -3.32 -4.08 -6.24 -4.08 l-2.6 0 z M33.2 26.52 l0 13.48 l-6 0 l0 -24.48 l6 0 l7.64 13.52 l7.64 -13.52 l6 0 l0 24.48 l-6 0 l0 -13.48 l-4.64 7.96 l-6 0 z M77.28 34.44 l0 5.56 l-18.2 0 l0 -24.48 l6 0 l0 18.92 l12.2 0 z M95.47999999999999 35.04 l-9 0 l-1.76 4.96 l-6.52 0 l9.8 -24.48 l6 0 l9.8 24.48 l-6.56 0 z M88.44 29.48 l5.08 0 l-2.52 -7.12 z M124.44 34.44 l0 5.56 l-18.2 0 l0 -24.48 l6 0 l0 18.92 l12.2 0 z M153 15.52 l5.84 0 l-4.52 24.48 l-8.88 0 l-3.2 -14.28 l-3.4 14.28 l-9.36 0 l-3.96 -24.48 l6.12 0 l2.76 18.32 l3.6 -14.28 l8.52 0 l3.44 14.28 z M176.6 35.04 l-9 0 l-1.76 4.96 l-6.52 0 l9.8 -24.48 l6 0 l9.8 24.48 l-6.56 0 z M169.56 29.48 l5.08 0 l-2.52 -7.12 z M202.95999999999998 15.52 l6 0 l0 24.48 l-6 0 l-9.6 -14.32 l0 14.32 l-6 0 l0 -24.48 l6 0 l9.6 14.32 l0 -14.32 z M213.51999999999998 15.52 l6 0 l0 24.48 l-6 0 l0 -24.48 z"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="col-9 col-xs-3 pull-right">
+            <div class="pull-right menu-icon-mobile">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="col-12 pull-right lower">
+              <div class="nav-links">
+                <a
+                  href="javascript:;"
+                  rel="Home"
+                  class="active"
+                  data-event-category="Header"
+                  data-event-action="Click"
+                  data-event-name="Home"
+                  >Home</a
+                >
+                <a
+                  href="javascript:;"
+                  rel="Projects"
+                  data-event-category="Header"
+                  data-event-action="Click"
+                  data-event-name="Projects"
+                  >Projects</a
+                >
+                <a
+                  href="javascript:;"
+                  rel="Skills"
+                  data-event-category="Header"
+                  data-event-action="Click"
+                  data-event-name="Skills"
+                  >Skills</a
+                >
+                <a
+                  href="javascript:;"
+                  rel="Experience"
+                  data-event-category="Header"
+                  data-event-action="Click"
+                  data-event-name="Experience"
+                  >Experience</a
+                >
+                <a
+                  href="javascript:;"
+                  rel="About"
+                  data-event-category="Header"
+                  data-event-action="Click"
+                  data-event-name="About"
+                  >About</a
+                >
+                <a
+                  href="javascript:;"
+                  rel="Contact"
+                  data-event-category="Header"
+                  data-event-action="Click"
+                  data-event-name="Contact"
+                  >Contact</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-container">
+          <a
+            href="javascript:;"
+            class="frmclose"
+            data-event-category="Section"
+            data-event-action="Click"
+            data-event-name="Form Close"
+            >X</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="" id="Home">
+      <div class="row">
+        <div class="col-12 banner_ht text-white pos-rel">
+          <div class="left-landing-banner col-8 col-xs-12">
+            <div class="banner-content-wrapper">
+              <h1 class="mg-bt-20">
+                Hi There! 👋🏻
+                <br />
+                <span class="name">I'm Dinesh Lalwani</span>
+              </h1>
+              <h2 class="job-title">
+                <span class="typed-text"></span
+                ><span class="cursor blink">&nbsp;</span>
+              </h2>
+              <div class="banner-buttons">
+                <a
+                  href="https://drive.google.com/file/d/1cmYsMq1sdyPVd0anddzbD6oi9lMsm5qB/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                  class="cvButton"
+                  >Download CV</a
+                >
+                <a href="javascript:;" rel="Contact" class="contactButton"
+                  >Contact</a
+                >
+              </div>
+            </div>
+          </div>
+          <img src="images/profilePic1.png" alt="profilePic" class="bannerPP" />
+          <div class="right-landing-banner col-4 col-xs-12"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding pos-rel" id="Projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="line-styling hidden-xs">
+              <div class="style-circle"></div>
+              <div class="style-circle"></div>
+              <div class="style-line"></div>
+            </div>
+            <h2 class="section-heading text-center">Projects</h2>
+            <div class="flex project-card-wrapper">
+              <div class="project-card text-center">
+                <img
+                  src="images/foodVilla.png"
+                  class="img-responsive"
+                  alt="FoodVilla Img"
+                />
+                <div class="project-name">Food Villa</div>
+                <div class="project-description">
+                  A food ordering application not only with the UI/UX of Swiggy
+                  but also integrated with it's live API. You can search from
+                  you favourite restaurants and add the food into the Cart..!
+                </div>
+                <div class="project-button-wrapper">
+                  <a
+                    href="https://www.linkedin.com/posts/dm-lalwani_namasteeveryone-namastereact-reactjs-activity-7169345852229050368-tPDJ?utm_source=share&utm_medium=member_desktop"
+                    class="project-button"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 448 512"
+                      class="jss242"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+                      ></path>
+                    </svg>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/dm-lalwani/food-villa"
+                    class="project-button"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 640 512"
+                      class="jss242"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"
+                      ></path>
+                    </svg>
+                    Code
+                  </a>
+                </div>
+              </div>
+              <div class="project-card text-center">
+                <img
+                  src="images/foodVilla.png"
+                  class="img-responsive"
+                  alt="FoodVilla Img"
+                />
+                <div class="project-name">Campground Advisor</div>
+                <div class="project-description">
+                  A web application for simplifying the process of adding,
+                  finding, and reviewing the campgrounds to enhance the camping
+                  experience with a keen focus on security to prevent SQL
+                  attacks.
+                </div>
+                <div class="project-button-wrapper">
+                  <a
+                    href="https://github.com/dm-lalwani/dm-camp"
+                    class="project-button"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 448 512"
+                      class="jss242"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+                      ></path>
+                    </svg>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/dm-lalwani/dm-camp"
+                    class="project-button"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 640 512"
+                      class="jss242"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"
+                      ></path>
+                    </svg>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="" id="Skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-heading text-center">Skills</h2>
+            <div class="skills-slider">
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/html.png" alt="HTML" />
+                  <div class="skill-name">HTML</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/css.png" alt="" />
+                  <div class="skill-name">CSS</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/bootstrap.png" alt="" />
+                  <div class="skill-name">Bootstrap</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/tailwind.png" alt="" />
+                  <div class="skill-name">Tailwind</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/javascript.png" alt="" />
+                  <div class="skill-name">Javascript</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/jquery.png" alt="" />
+                  <div class="skill-name">jQuery</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/reactjs.png" alt="" />
+                  <div class="skill-name">React</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/redux.png" alt="" />
+                  <div class="skill-name">Redux</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/formik.png" alt="" />
+                  <div class="skill-name">Formik</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/git.png" alt="" />
+                  <div class="skill-name">Git</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/mysql.png" alt="" />
+                  <div class="skill-name">MySQL</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/C.png" alt="" />
+                  <div class="skill-name">C</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/C++.png" alt="" />
+                  <div class="skill-name">C++</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/mongodb.png" alt="" />
+                  <div class="skill-name">MongoDB</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/webpack.png" alt="" />
+                  <div class="skill-name">Webpack</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/parcel.png" alt="" />
+                  <div class="skill-name">Parcel</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/jest.png" alt="" />
+                  <div class="skill-name">Jest</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/rtl.png" alt="" />
+                  <div class="skill-name">React Testing Library</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/github.svg" alt="" />
+                  <div class="skill-name">GitHub</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/heroku.png" alt="" />
+                  <div class="skill-name">Heroku</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/nodejs.svg" alt="" />
+                  <div class="skill-name">Node</div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-box">
+                  <img src="images/skills/express.png" alt="" />
+                  <div class="skill-name">Express</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding" id="Experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="experience-body">
+              <div class="experience-description">
+                <h2 class="section-heading">Experience</h2>
+                <div class="experience-card">
+                  <div class="exp-card-img">
+                    <img src="images/expCard.svg" alt="" />
+                  </div>
+                  <div class="exp-details">
+                    <div class="duration">2022 - 2023</div>
+                    <div class="position">Software Developer Engineer</div>
+                    <div class="company">Siemens</div>
+                  </div>
+                </div>
+                <div class="experience-card">
+                  <div class="exp-card-img">
+                    <img src="images/expCard.svg" alt="" />
+                  </div>
+                  <div class="exp-details">
+                    <div class="duration">2021 - 2022</div>
+                    <div class="position">Web Developer</div>
+                    <div class="company">K2V2 Technologies</div>
+                  </div>
+                </div>
+                <div class="experience-card">
+                  <div class="exp-card-img">
+                    <img src="images/expCard.svg" alt="" />
+                  </div>
+                  <div class="exp-details">
+                    <div class="duration">2021 - 2021</div>
+                    <div class="position">Software Developer - Intern</div>
+                    <div class="company">Dirk Media</div>
+                  </div>
+                </div>
+              </div>
+              <div class="experience-image">
+                <img
+                  src="images/experience-image.svg"
+                  alt=""
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="About">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="about-content-wrapper">
+              <h2 class="section-heading text-center">Who I am</h2>
+              <p>
+                My name's Dinesh. I am a Frontend Engineer based in Nashik
+                Maharashtra, India
+              </p>
+              <p>
+                With 2 + years of experience in React JS developement I bring
+                complex design concepts to life through pixel-perfect web
+                experiences. My ability to leverage technologies like Redux
+                Toolkit and Tailwind CSS has led to projects that boost
+                conversion rates and user satisfaction.
+              </p>
+              <p>
+                Now, I'm eager to join a product-focused team and contribute my
+                skills to building innovative and scalable applications. I work
+                on freelance projects and utilize the time to built my own
+                products. I love to learn and explore new arenas.
+              </p>
+            </div>
+            <!------------ Education section --------->
+            <div class="experience-body">
+              <div class="experience-image">
+                <img
+                  src="images/education-image.svg"
+                  alt=""
+                  class="img-responsive"
+                />
+              </div>
+              <div class="experience-description education-description">
+                <h2 class="section-heading">Education</h2>
+                <div class="experience-card">
+                  <div class="exp-card-img">
+                    <img src="images/eduCard.svg" alt="" />
+                  </div>
+                  <div class="exp-details">
+                    <div class="duration">2017 - 2021</div>
+                    <div class="position">
+                      Bachelor of Technology, Computer Engineering
+                    </div>
+                    <div class="company">
+                      Vishwakarma Institute of Technology, Pune
+                    </div>
+                  </div>
+                </div>
+                <div class="experience-card">
+                  <div class="exp-card-img">
+                    <img src="images/eduCard.svg" alt="" />
+                  </div>
+                  <div class="exp-details">
+                    <div class="duration">2015 - 2017</div>
+                    <div class="position">Junior College</div>
+                    <div class="company">Bytco College, Nashik</div>
+                  </div>
+                </div>
+                <div class="experience-card">
+                  <div class="exp-card-img">
+                    <img src="images/eduCard.svg" alt="" />
+                  </div>
+                  <div class="exp-details">
+                    <div class="duration">2005 - 2015</div>
+                    <div class="position">Higher Secondary Education</div>
+                    <div class="company">
+                      Sacred Heart Convent High School, Nashik
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding pos-rel" id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="line-styling">
+              <div class="style-circle"></div>
+              <div class="style-circle"></div>
+              <div class="style-line"></div>
+            </div>
+            <h2 class="section-heading">Let's Get In Touch</h2>
+            <div class="contact-wrapper">
+              <div class="contacts-details">
+                <a
+                  href="mailto:mr.d.m.lalwani@gmail.com"
+                  class="personal-details"
+                >
+                  <div class="contact-icons">
+                    <img src="images/email.svg" alt="" />
+                  </div>
+                  <p>mr.d.m.lalwani@gmail.com</p>
+                </a>
+                <a href="tel:+919765981322" class="personal-details">
+                  <div class="contact-icons">
+                    <img src="images/call.svg" alt="" />
+                  </div>
+                  <p>+91 9765981322</p>
+                </a>
+                <div class="personal-details">
+                  <div class="contact-icons">
+                    <img src="images/location.svg" alt="" />
+                  </div>
+                  <p>Nashik, Maharashtra, India - 422101</p>
+                </div>
+              </div>
+              <div class="social-media-links">
+                <a
+                  href="https://github.com/dm-lalwani"
+                  target="_blank"
+                  rel="noopener"
+                  class="personal-details"
+                >
+                  <div class="contact-icons">
+                    <img src="images/socialMedia/github.svg" alt="" />
+                  </div>
+                </a>
+                <a
+                  href="https://www.instagram.com/dm_lalwani/"
+                  target="_blank"
+                  rel="noopener"
+                  class="personal-details"
+                >
+                  <div class="contact-icons">
+                    <img src="images/socialMedia/instagram.svg" alt="" />
+                  </div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/dm-lalwani/"
+                  target="_blank"
+                  rel="noopener"
+                  class="personal-details"
+                >
+                  <div class="contact-icons">
+                    <img src="images/socialMedia/linkedIn.svg" alt="" />
+                  </div>
+                </a>
+                <a
+                  href="https://twitter.com/dm_lalwani"
+                  target="_blank"
+                  rel="noopener"
+                  class="personal-details"
+                >
+                  <div class="contact-icons">
+                    <img src="images/socialMedia/twitterx.svg" alt="" />
+                  </div>
+                </a>
+                <a
+                  href="https://wa.me/919765981322?text=Hi!%20I%20saw%20your%20portfolio"
+                  target="_blank"
+                  class="personal-details"
+                >
+                  <div class="contact-icons">
+                    <img src="images/socialMedia/whatsapp.svg" alt="" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/contacts.svg" class="contacts--img hidden-xs" alt="" />
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col-12 lower">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                Crafted with <span class="footer-love">❤</span> by Dinesh
+                Lalwani
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/slick.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
